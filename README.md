@@ -5,4 +5,6 @@ These Jupyter notebooks are being provided simply to help others in an informal 
 
 "Sentinel-2 Mask_Stack_revised" is a notebook that, as you might guess, masks and stacks S2 imagery. You need only download the imagery and point the system to the IMG_DATA folder.  WINDOWS USERS: you will need to change "/" to "\" for this to work for you.  I've tried to highlight where this needs done.  I only use select bands and mask everything except vegetation, but this can easily be changed for your needs.
 
+"Sentinel-2 Stack_only" is a notebook that just stacks S2 imagery. Its currently set to certain bands (visible, RE, NIR, SWIR1 and SWIR2), but this is easily adjusted in the code.
+
 "Take HLS data and write to GeoTif" does a similar thing, but with images from NASA's Harmonized Landsat-Sentinel-2 dataset (https://hls.gsfc.nasa.gov/). I wrote this bit of code a while back and borrowed heavily from colleagues. It works just fine for me, but its a bit more messy and you may choose to edit it a bit for your needs.  
